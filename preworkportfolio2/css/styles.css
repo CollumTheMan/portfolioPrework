@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family: 'Abel', sans-serif;
+    background-color:#8924b0;
+    color:rgb(255, 255, 255);
+}
+
+nav{
+    background-color: #8924b0;
+    padding:10px;
+}
+
+nav a{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+}
+
+.hero-image{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,.5)), url("../images/synthwaveBackdrop.gif");
+    height: 80%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-text{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+
+nav ul{
+    list-style-type:none;
+}
+
+nav li{
+    display: inline;
+    margin: 10px;
+}
+
+nav{
+    display:flex;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color:#2de6fb;
+}
+
+main{
+    display:flex;
+}
+
+#main-articles{
+    width: 70%;
+    background-color:#4740c9;
+    border: 8px solid black;
+    border-radius:20px;
+    margin:10px;
+    padding: 20px;
+}
+
+.image-fit{
+    width:60%;
+    height: auto;
+    padding-left: 20%;
+}
+
+#side-bar{
+    width:30%;
+    padding: 50px 20px 20px 20px; 
+    border: 8px solid black;
+    background:linear-gradient(rgb(0,0,0,.5),rgb(0,0,0,.5)) , url('./images/marbel Walker.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    margin:10px;
+    border-radius:20px;
+    text-align: center;
+}
+
+#profile-pic{
+    width:75%;
+    border-radius:50%;
+    border: 3px solid whitesmoke;
+    margin-bottom: 10px;
+}
+
+article p::first-line{
+    font-variant:small-caps;
+    font-size: x-large;
+}
+
+footer{
+    text-align:center;
+    background-color:black;
+    color:rgb(251, 5, 5);
+    padding: 20px;
+}
+
+.grey-bg{
+    background: linear-gradient(rgb(0,0,0,.5),rgb(0,0,0,.5));
+    margin-bottom:50px;
+    padding: 25px;
+    border: 4px double #49fbfe;
+    border-radius: 20px;
+}
+
+textarea, input{
+    border-radius: 10px;
+    padding:10px;
+    margin-bottom: 10px;
+    background-color: #f74ce3;
+}
+
+input::placeholder, textarea::placeholder{
+    color:#dbd053;
+}
+
+input:valid{
+    background-color: #f74ce3;
+}
+
+button{
+    background-color: #ffda1e;
+    border-radius: 10px;
+    padding: 8px;
+    width:80%;
+    font-weight:bold;
+    margin-top:10px;
+}
+textarea:focus, input:focus{
+    outline:2px solid whitesmoke;
+}
+
+button:hover{
+    background-color:#f26d34;
+    color:whitesmoke;
+    border-color:whitesmoke;
+}
+
+h2{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
